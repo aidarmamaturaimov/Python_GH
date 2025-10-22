@@ -76,6 +76,7 @@ def sort_last(tuples):
       if tuples[j][-1] > tuples[j+1][-1]:
         tuples[j], tuples[j+1] = tuples[j+1], tuples[j]
   return tuples
+/
 
 
 # Simple provided test() function used in main() to print
