@@ -10,7 +10,7 @@ print(f'The total bill is: ${total_amount:.2f}')
 if tip > 20:
     print("Thank you for your generosity!")
 
-split_bil = int(input('How many people are splitting the bill?'))
+split_bil = int(input('How many people are splitting the bill? '))
 
 names = []
 for i in range(split_bil):
