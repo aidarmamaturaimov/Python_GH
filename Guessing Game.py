@@ -5,7 +5,7 @@ secret_num = random.randint(1, 100)
 num_attempts = 5
 
 print("I guessed a number X between 1 and 100")
-print("You have {} attempts remaining".format(num_attempts))
+print("You have {} attempts".format(num_attempts))
 
 for i in range(num_attempts):
     guess = int(input("Attempt {}: ".format(i+1)))
