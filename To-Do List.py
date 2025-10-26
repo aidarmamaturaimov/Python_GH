@@ -40,7 +40,7 @@ while True:
         break
 
     else:
-        print("Invalid input. Choose number from 1-4")
+        print("Invalid input. Choose number from 1-4 ")
 
 
 
