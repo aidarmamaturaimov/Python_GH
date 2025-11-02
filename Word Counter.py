@@ -1,1 +1,1 @@
-word counter vuj
+word counte
