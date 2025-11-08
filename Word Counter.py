@@ -1,5 +1,10 @@
-from thop.vision.calc_func import counter_div
 
+sentence = input("Enter a sentence: ")
 
-def word counter_div()nn
-ngrk
+words = sentence.split()
+count = {}
+
+for i in words:
+    count[i] = words.count(i)
+
+print(count)
