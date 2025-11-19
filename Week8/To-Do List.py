@@ -18,6 +18,7 @@ while True:
     print("3. Delete a task")
     print("4. Quit")
 
+
     user_decision = input('What do you want to do (1-4)?: ')
 
     # ADD TASK
