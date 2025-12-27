@@ -7,6 +7,7 @@ def bank_account():
     print("\nBank Account")
 
 def deposit():
+    balance += balance
     print("\nDeposit")
 
 def withdraw():
