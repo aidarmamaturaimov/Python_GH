@@ -8,6 +8,7 @@ def bank_account():
 
 def deposit():
     balance += balance
+    if balance < 0:
     print("\nDeposit")
 
 def withdraw():
