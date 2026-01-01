@@ -9,6 +9,7 @@ def bank_account():
 def deposit():
     balance += balance
     if balance < 0:
+        vfdn
     else:
         fefheo
     print("\nDeposit")
