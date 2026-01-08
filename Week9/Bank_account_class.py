@@ -10,6 +10,7 @@ def deposit():
     balance += balance
     if balance < 0:
         vfdn
+        freuiuioer
     else:
         fefheo
         iugiu
