@@ -1,35 +1,28 @@
-from psutil import users
+class BankAccountClass:
 
-user = 0
-balance = 0
+    def __init__(self, user_name, balance):
+        self.user_name = user_name
+        self.balance = balance
 
-def bank_account():
-    print("\nBank Account")
 
-def deposit():
-    balance += balance
-    if balance < 0:
-        vfdn
-        freuiuioer
-    else:
-        cgvhjbknkml
-        jklbnklj
-        fefheo
-        iugiu
-        fgj,
+    def deposit(self, amount):
+        self.balance += amount
+        print(f'Deposited amount: {amount}')
 
-        huijo;o
-    print("\nDeposit")
+    def withdraw(self, amount):
+        if amount > self.balance:
+            print ('Your balance is smaller than withdraw number')
+        else:
+            self.balance -= amount
+            print(f'Withdraw amount: {amount}')
 
-def withdraw():
-    return balance
-    print("\nWithdraw")
+    def display_balance(self):
+        print(f"{self.user_name}'s balance: {self.balance}")
 
-def display_balance():
-    print("\nDisplay Balance")
 
-if balance <= 0:
-   withdraw(False)
-
+abc = BankAccountClass('Adam', 101.11)
+abc.deposit(100)
+abc.withdraw(50)
+abc.display_balance()
 
 
