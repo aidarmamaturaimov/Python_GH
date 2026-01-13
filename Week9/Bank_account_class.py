@@ -20,9 +20,9 @@ class BankAccountClass:
         print(f"{self.user_name}'s balance: {self.balance}")
 
 
-abc = BankAccountClass('Adam', 101.11)
-abc.deposit(100)
-abc.withdraw(50)
-abc.display_balance()
+x = BankAccountClass('Adam', 101.11)
+x.deposit(100)
+x.withdraw(50)
+x.display_balance()
 
 
