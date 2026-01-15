@@ -1,1 +1,17 @@
 def linear_search(data_list, target):
+    for i in range(len(data_list)):
+        if data_list[i] == target:
+            return f"Index number: {i}"
+
+    return -1
+
+numbers = [10, 25, 30, 45, 50]
+print(linear_search(numbers, 30))
+print(linear_search(numbers, 100))
+
+names = ["Alice", "Bob", "Charlie"]
+print(linear_search(names, "Bob"))
+print(linear_search(names, "David"))
+
+mixed = [1, "apple", 3.14, True]
+print(linear_search(mixed, "apple"))
