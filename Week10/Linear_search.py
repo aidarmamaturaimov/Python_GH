@@ -5,6 +5,7 @@ def linear_search(data_list, target):
 
     return -1
 
+
 numbers = [10, 25, 30, 45, 50]
 print(linear_search(numbers, 30))
 print(linear_search(numbers, 100))
