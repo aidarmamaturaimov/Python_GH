@@ -11,6 +11,7 @@ print(linear_search(numbers, 30))
 print(linear_search(numbers, 100))
 
 names = ["Alice", "Bob", "Charlie"]
+
 print(linear_search(names, "Bob"))
 print(linear_search(names, "David"))
 
