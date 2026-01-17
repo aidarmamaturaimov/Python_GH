@@ -13,7 +13,7 @@ print(linear_search(numbers, 100))
 names = ["Alice", "Bob", "Charlie"]
 
 print(linear_search(names, "Bob"))
-print(linear_search(names, "David"))
+print(linear_search(names, "Dave"))
 
 mixed = [1, "apple", 3.14, True]
 print(linear_search(mixed, "apple"))
