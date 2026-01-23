@@ -8,7 +8,7 @@ def linear_search(data_list, target):
 
 numbers = [10, 25, 30, 45, 55]
 print(linear_search(numbers, 30))
-print(linear_search(numbers, 100))
+print(linear_search(numbers, 90))
 
 names = ["Alice", "Bob", "Charlie"]
 
